@@ -18,7 +18,7 @@ export swatplus_wf_dir=$HOME/.SWAT/SWATPlus/Workflow/
 export WF_QGIS=/usr/share/qgis/python/plugins
 
 # # add default plugins and model directory to python path
-export PYTHONPATH=$BASE_DIR:$WF_QGIS:$PYTHONPATH
+export PYTHONPATH=$HOME/.SWAT/SWATPlus/Workflow/.venv/lib/python3.6/site-packages:$BASE_DIR:$WF_QGIS:$PYTHONPATH
 # export PATH=%PATH%
 
 # start runing the workflow using PyQGIS
